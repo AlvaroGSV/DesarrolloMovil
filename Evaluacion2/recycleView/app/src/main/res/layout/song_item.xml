@@ -31,13 +31,22 @@
         android:layout_marginTop="15dp"/>
 
     <TextView
-        android:id="@+id/songAlbum"
+        android:id="@+id/txtAlbum"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         tools:text="ALBUM"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/songArtist"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"/>
+    <TextView
+        android:id="@+id/songAlbum"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="ALBUM"
+        app:layout_constraintStart_toEndOf="@+id/txtAlbum"
+        app:layout_constraintBottom_toBottomOf="@+id/txtAlbum"
+        android:layout_marginLeft="10dp"/>
 
     <TextView
         android:id="@+id/songTrackNum"
