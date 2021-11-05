@@ -11,7 +11,6 @@ class HBarray {
             HBcontacts(R.drawable.octavia,"Octavia","666-487-2504","gothchk17"),
             HBcontacts(R.drawable.millie,"Millie","668-432-3773","beautymarkbabe666"),
             HBcontacts(R.drawable.moxxie,"Moxxie","668-967-3146","simply_moxxie")
-
         )
     }
 }
